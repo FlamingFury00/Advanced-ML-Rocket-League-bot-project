@@ -1,0 +1,7 @@
+Continuing training at iteration -1
+Top contributors:
+Collecting rollouts (-1)...
+Training network...
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Top contributors:
+	ML-bot: 1010402

@@ -1,0 +1,16 @@
+2023-03-20 19:16:47,199 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Configure stats pid to 7636
+2023-03-20 19:16:47,199 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Loading settings from C:\Users\manue\.config\wandb\settings
+2023-03-20 19:16:47,199 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Loading settings from C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\settings
+2023-03-20 19:16:47,199 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-20 19:16:47,199 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'learner.py', 'program': 'c:/Users/manue/Downloads/Advanced ML Rocket League-bot project/learner.py'}
+2023-03-20 19:16:47,199 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-20 19:16:47,199 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-20 19:16:47,200 INFO    MainThread:7636 [wandb_setup.py:_flush():68] Applying login settings: {'force': True}
+2023-03-20 19:16:47,200 INFO    MainThread:7636 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\run-20230320_191647-general\logs\debug.log
+2023-03-20 19:16:47,200 INFO    MainThread:7636 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\run-20230320_191647-general\logs\debug-internal.log
+2023-03-20 19:16:47,201 INFO    MainThread:7636 [wandb_init.py:init():532] calling init triggers
+2023-03-20 19:16:47,201 INFO    MainThread:7636 [wandb_init.py:init():539] wandb.init called with sweep_config: {}
+config: {'actor_lr': 5e-05, 'critic_lr': 5e-05, 'n_steps': 1000000, 'batch_size': 20000, 'minibatch_size': 10000, 'epochs': 32, 'gamma': 0.9908006132652293, 'clip_range': 0.2, 'gae_lambda': 0.95, 'vf_coef': 1, 'max_grad_norm': 0.5}
+2023-03-20 19:16:47,202 INFO    MainThread:7636 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-03-20 19:16:47,231 INFO    MainThread:7636 [wandb_watch.py:watch():51] Watching
+2023-03-21 04:07:56,542 WARNING MsgRouterThr:7636 [router.py:message_loop():77] message_loop has been closed

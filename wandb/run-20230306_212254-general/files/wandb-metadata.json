@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2023-03-06T20:22:55.285661",
+    "startedAt": "2023-03-06T20:22:54.377525",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:/Users/manue/Downloads/Advanced ML Rocket League-bot project/learner.py",
+    "codePath": "learner.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "manuel.digiovanni13.mdg@gmail.com",
+    "root": "C:/Users/manue/Downloads/Advanced ML Rocket League-bot project",
+    "host": "DESKTOP-4DUP802",
+    "username": "Manuel",
+    "executable": "C:\\Users\\manue\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3600.0,
+        "min": 0.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.0,
+            "min": 0.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "total": 929.6174011230469,
+        "used": 358.69586181640625
+    },
+    "gpu": "NVIDIA GeForce GTX 1060 6GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1060 6GB",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.94515609741211
+    }
+}

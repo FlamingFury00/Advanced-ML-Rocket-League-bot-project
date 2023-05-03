@@ -1,0 +1,47 @@
+2023-03-11 17:03:41,204 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Configure stats pid to 6012
+2023-03-11 17:03:41,204 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Loading settings from C:\Users\manue\.config\wandb\settings
+2023-03-11 17:03:41,205 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Loading settings from C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\settings
+2023-03-11 17:03:41,205 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-11 17:03:41,205 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'learner.py', 'program': 'c:/Users/manue/Downloads/Advanced ML Rocket League-bot project/learner.py'}
+2023-03-11 17:03:41,207 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-11 17:03:41,207 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-11 17:03:41,207 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Applying login settings: {'force': True}
+2023-03-11 17:03:41,207 INFO    MainThread:6012 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\run-20230311_170341-general\logs\debug.log
+2023-03-11 17:03:41,207 INFO    MainThread:6012 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\run-20230311_170341-general\logs\debug-internal.log
+2023-03-11 17:03:41,208 INFO    MainThread:6012 [wandb_init.py:init():532] calling init triggers
+2023-03-11 17:03:41,208 INFO    MainThread:6012 [wandb_init.py:init():539] wandb.init called with sweep_config: {}
+config: {}
+2023-03-11 17:03:41,209 INFO    MainThread:6012 [wandb_init.py:init():588] starting backend
+2023-03-11 17:03:41,209 INFO    MainThread:6012 [wandb_init.py:init():592] setting up manager
+2023-03-11 17:03:41,216 INFO    MainThread:6012 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=spawn, using: spawn
+2023-03-11 17:03:41,224 INFO    MainThread:6012 [wandb_init.py:init():599] backend started and connected
+2023-03-11 17:03:41,231 INFO    MainThread:6012 [wandb_init.py:init():687] updated telemetry
+2023-03-11 17:03:41,233 INFO    MainThread:6012 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-11 17:03:42,020 INFO    MainThread:6012 [wandb_init.py:init():765] run resumed
+2023-03-11 17:03:42,030 INFO    MainThread:6012 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-11 17:03:42,141 INFO    MainThread:6012 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-11 17:03:42,141 INFO    MainThread:6012 [wandb_init.py:init():775] starting run threads in backend
+2023-03-11 17:03:42,224 INFO    MainThread:6012 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-11 17:03:42,226 INFO    MainThread:6012 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-11 17:03:42,226 INFO    MainThread:6012 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-11 17:03:42,226 INFO    MainThread:6012 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-11 17:03:42,227 INFO    MainThread:6012 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-11 17:03:42,228 INFO    MainThread:6012 [wandb_config.py:__setitem__():155] config set magic = {'enable': True} - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000000354FA048>>
+2023-03-11 17:03:42,228 INFO    MainThread:6012 [wandb_run.py:_config_callback():1250] config_cb magic {'enable': True} None
+2023-03-11 17:03:42,228 INFO    MainThread:6012 [wandb_run.py:_config_callback():1250] config_cb None None {'_wandb': {}, 'magic': {'enable': True}}
+2023-03-11 17:03:42,268 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Configure stats pid to 6012
+2023-03-11 17:03:42,269 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Loading settings from C:\Users\manue\.config\wandb\settings
+2023-03-11 17:03:42,269 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Loading settings from C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\settings
+2023-03-11 17:03:42,269 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-11 17:03:42,269 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'learner.py', 'program': 'c:/Users/manue/Downloads/Advanced ML Rocket League-bot project/learner.py'}
+2023-03-11 17:03:42,271 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-11 17:03:42,271 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-11 17:03:42,271 INFO    MainThread:6012 [wandb_setup.py:_flush():68] Applying login settings: {'force': True}
+2023-03-11 17:03:42,272 INFO    MainThread:6012 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\run-20230311_170342-general\logs\debug.log
+2023-03-11 17:03:42,272 INFO    MainThread:6012 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\manue\Downloads\Advanced ML Rocket League-bot project\wandb\run-20230311_170342-general\logs\debug-internal.log
+2023-03-11 17:03:42,273 INFO    MainThread:6012 [wandb_init.py:init():532] calling init triggers
+2023-03-11 17:03:42,273 INFO    MainThread:6012 [wandb_init.py:init():539] wandb.init called with sweep_config: {}
+config: {'actor_lr': 5e-05, 'critic_lr': 5e-05, 'n_steps': 1000000, 'batch_size': 20000, 'minibatch_size': 10000, 'epochs': 32, 'gamma': 0.9908006132652293, 'clip_range': 0.2, 'gae_lambda': 0.95, 'vf_coef': 1, 'max_grad_norm': 0.5}
+2023-03-11 17:03:42,274 INFO    MainThread:6012 [wandb_init.py:init():583] wandb.init() called when a run is still active
+2023-03-11 17:03:42,299 INFO    MainThread:6012 [wandb_watch.py:watch():51] Watching

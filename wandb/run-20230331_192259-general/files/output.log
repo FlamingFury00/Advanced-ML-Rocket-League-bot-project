@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\connection.py", line 612, in connect
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\connection.py", line 677, in _connect
+    raise err
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "c:/Users/manue/Downloads/Advanced ML Rocket League-bot project/learner.py", line 125, in <module>
+    stat_trackers=stat_trackers)
+  File "c:\Users\manue\Downloads\Advanced ML Rocket League-bot project\rocket_learn\rollout_generator\redis\redis_rollout_generator.py", line 58, in __init__
+    if self.redis.exists(ROLLOUTS) > 0:
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\commands\core.py", line 1612, in exists
+    return self.execute_command("EXISTS", *names)
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "C:\Users\manue\AppData\Local\Programs\Python\Python37\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
