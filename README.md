@@ -1,7 +1,7 @@
 # Advanced-ML-Rocket-League-bot-project
 
 Just a test for creating a Machine Learning bot for the game Rocket League using RLGym and Rocket-Learn. 
-New version will be out soon, more advanced i hope! 
+I will start working on a new version soon, more advanced i hope!
 
 ---
 
